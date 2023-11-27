@@ -1,0 +1,30 @@
+{"input1":"","output1":"","output2":0}
+{"input1":"A","output1":"A","output2":1}
+{"input1":"*","output1":"*","output2":1}
+{"input1":" ","output1":"\n","output2":0}
+{"input1":"s","output1":"s","output2":1}
+{"input1":"B ","output1":"B\n","output2":1}
+{"input1":"  ","output1":"\n\n","output2":0}
+{"input1":" D","output1":"\nD","output2":1}
+{"input1":"ef","output1":"ef","output2":2}
+{"input1":"!!","output1":"!!","output2":2}
+{"input1":" F ","output1":"\nF\n","output2":1}
+{"input1":"T L","output1":"T\nL","output2":2}
+{"input1":"4ps","output1":"4ps","output2":3}
+{"input1":"q  ","output1":"q\n\n","output2":1}
+{"input1":"   ","output1":"\n\n\n","output2":0}
+{"input1":"  e","output1":"\n\ne","output2":1}
+{"input1":"hi ","output1":"hi\n","output2":2}
+{"input1":"  $  ","output1":"\n\n$\n\n","output2":1}
+{"input1":"      9","output1":"\n\n\n\n\n\n9","output2":1}
+{"input1":"i !i !i !i !i","output1":"i\n!i\n!i\n!i\n!i","output2":9}
+{"input1":"88888888888888888888","output1":"88888888888888888888","output2":20}
+{"input1":"                    ","output1":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n","output2":0}
+{"input1":"ssssssssssssssssssss","output1":"ssssssssssssssssssss","output2":20}
+{"input1":"1 1 1 1 1 1 1 1 1 1 ","output1":"1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n","output2":10}
+{"input1":" v v v v v v v v v v","output1":"\nv\nv\nv\nv\nv\nv\nv\nv\nv\nv","output2":10}
+{"input1":"Ha Ha Ha Ha Ha Ha Ha","output1":"Ha\nHa\nHa\nHa\nHa\nHa\nHa","output2":14}
+{"input1":"x y!x y!x y!x y!x y!","output1":"x\ny!x\ny!x\ny!x\ny!x\ny!","output2":15}
+{"input1":"G5G5G5G5G5G5G5G5G5G5","output1":"G5G5G5G5G5G5G5G5G5G5","output2":20}
+{"input1":">_=]>_=]>_=]>_=]>_=]","output1":">_=]>_=]>_=]>_=]>_=]","output2":20}
+{"input1":"^_^ ^_^ ^_^ ^_^ ^_^ ","output1":"^_^\n^_^\n^_^\n^_^\n^_^\n","output2":15}

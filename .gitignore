@@ -1,0 +1,25 @@
+# The directory commonly when downloading data to test this library.
+data/
+
+# Test / Coverage Reports
+test_local_cache*
+.pytest_cache/
+__pycache__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+venvs/
+ENV/
+env.bak/
+venv.bak/
+
+# pyenv
+.python-version
+
+# Editor Files
+.idea
+.vscode
+*.code-workspace
