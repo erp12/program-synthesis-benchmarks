@@ -340,6 +340,9 @@
 <h1 id="program-synthesis-benchmarks">Program Synthesis Benchmarks</h1>
 <p>A Python library for downloading and reading the datasets from the Program Synthesis Benchmark Suite (<a href="https://cs.hamilton.edu/~thelmuth/Pubs/2015-GECCO-benchmark-suite.pdf">v1</a> and <a href="https://arxiv.org/abs/2106.06086">v2</a>). Downloaded datasets are stored as parquet, and read into
 pandas DataFrames.</p>
+<blockquote>
+<p><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> This has no official release yet. The source code is made public for reasons of collaboration on the initial official release. Use at your own risk.</p>
+</blockquote>
 <h2 id="rationale">Rationale</h2>
 <p>The <em>Program Synthesis Benchmark Suite</em> is a set of general programming tasks used to evaluate program synthesis systems. The authors of the PSB suites provide canonical datasets of over 1 million labeled cases per problem for use in inductive program synthesis systems. These datasets have been used to standardize development and evaluation many methods.</p>
 <p>A unique feature of the PSB suite dtasets is their complex schemas. Many problems involve complex data types, such as collection types, and occastionally specify both returned and printed (stdout) outputs. Additionally, a small subset of training cases (so called "edge cases") are considred critical to the evaluation of synthesized programs and are often handled differently during synthesis. For these reasons, and others implied below, the <code>program_synthesis_benchmarks</code> library is tool that helps practitioners manage these datasets.</p>
