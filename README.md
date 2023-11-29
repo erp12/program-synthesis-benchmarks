@@ -95,7 +95,7 @@ read_dataset("gcd", cache_dir="./path/to/data")
 
 ```
 
-More detailed documentation can be found in the [API docs](api/).
+More detailed documentation can be found in the [API docs](https://erp12.github.io/program-synthesis-benchmarks/api/).
 
 
 ## Citation
@@ -122,8 +122,3 @@ BibTeX entry for paper:
   URL = {https://dl.acm.org/doi/10.1145/3449639.3459285},
 }
 ```
-
-## To Do
-
-- Download parquet files for better compression and faster reading.
-- Liscence and code of conduct

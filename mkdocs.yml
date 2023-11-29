@@ -1,8 +1,15 @@
 site_name: Program Synthesis Benchmarks
-# site_url: 
+site_url: https://erp12.github.io/program-synthesis-benchmarks/
+repo_url: https://github.com/erp12/program-synthesis-benchmarks
+site_description: Fetching datasets from the Program Synthesis Benchmark Suites.
+site_author: Edward Pantridge
+copyright: Copyright &copy; 2023 <a href="https://github.com/erp12">Edward Pantridge</a>
 
 nav:
   - API: api.md
+  - Release Notes: releases.md
+  - Contributing: contributing.md
+  - License: license.md
 
 theme:
   name: material
