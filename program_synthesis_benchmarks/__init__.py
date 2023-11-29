@@ -17,6 +17,7 @@ __version__ = "0.0.0"
 
 PSB1_PROBLEMS = frozenset(
     [
+        "checksum",
         "collatz-numbers",
         "compare-string-lengths",
         "count-odds",
@@ -76,7 +77,6 @@ PSB2_PROBLEMS = frozenset(
         "substitution-cipher",
         "twitter",
         "vector-distance",
-        "checksum",
     ]
 )
 

@@ -28,6 +28,7 @@ class TestReadDataset:
         assert df.edge_case.dtype == bool
         assert df.loc[df.edge_case].shape[0] == 6
 
+    # @TODO Fix this test after moving to parquet files.
     def test_dataset_with_stdout(self):
         df = read_dataset("replace-space-with-newline", cache_dir="tests/test_data/")
         assert df.shape == (40, 4)
