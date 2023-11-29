@@ -3,6 +3,9 @@
 A Python library for downloading and reading the datasets from the Program Synthesis Benchmark Suite ([v1](https://cs.hamilton.edu/~thelmuth/Pubs/2015-GECCO-benchmark-suite.pdf) and [v2](https://arxiv.org/abs/2106.06086)). Downloaded datasets are stored as parquet, and read into
 pandas DataFrames.
 
+> :no_entry_sign: This has no official release yet. The source code is made public for reasons of collaboration on the initial official release. Use at your own risk.
+
+
 ## Rationale
 
 The _Program Synthesis Benchmark Suite_ is a set of general programming tasks used to evaluate program synthesis systems. The authors of the PSB suites provide canonical datasets of over 1 million labeled cases per problem for use in inductive program synthesis systems. These datasets have been used to standardize development and evaluation many methods.
